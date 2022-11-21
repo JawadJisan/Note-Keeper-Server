@@ -29,7 +29,7 @@ async function run() {
     app.get('/mdb', (req, res) => {
       res.send('MongoDB is connected successfully')
     })
-
+/*  */
     // Insert Document => 
     app.post('/note', async (req, res) => {
       const response = await allNotes.insertOne(req.body);
